@@ -1,0 +1,42 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lkl.mapper.UserMapper">
+    
+    <resultMap id="BaseResultMap" type="com.lkl.entity.User">
+        <result column="id" property="id"/>
+        <result column="userName" property="userName"/>
+        <result column="password" property="password"/>
+        <result column="userGroups" property="userGroups"/>
+        <result column="realName" property="realName"/>
+        <result column="gender" property="gender"/>
+        <result column="telephone" property="telephone"/>
+        <result column="birthday" property="birthday"/>
+        <result column="address" property="address"/>
+        <result column="skills" property="skills"/>
+        <result column="email" property="email"/>
+        <result column="evaluation" property="evaluation"/>
+        <result column="level" property="level"/>
+        <result column="status" property="status"/>
+        <result column="isDelete" property="isDelete"/>
+    </resultMap>
+
+    <sql id="all">
+        id,userName,password,userGroups,realName,gender,telephone,birthday,address,skills,email,evaluation,level,status,isDelete
+    </sql>
+
+    <select id="login" parameterType="com.lkl.entity.User" resultMap="BaseResultMap">
+        select <include refid="all"/> from user
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="userName != null">and userName = #{userName}</if>
+            <if test="password != null">and password = #{password}</if>
+        </trim>
+    </select>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        select <include refid="all"/> from user
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="idDelete != null">and idDelete = #{idDelete}</if>
+        </trim>
+    </select>
+
+</mapper>
