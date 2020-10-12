@@ -5,12 +5,10 @@ import lombok.Data;
 import java.util.HashSet;
 import java.util.Set;
 
-
 @Data
-public class User {
-    private int id;
-    private String username;
-    private String password;
-    Set<Role> roleSet = new HashSet<>();
+public class Role {
+    private int rid;
+    private String name;
+    Set<User> userSet = new HashSet<>();
     Set<Permission> permissionSet = new HashSet<>();
 }
