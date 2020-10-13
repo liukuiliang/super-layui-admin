@@ -2,27 +2,33 @@
 
 <mapper namespace="com.lkl.mapper.UserMapper">
 
-    <resultMap id="resultmap" type="com.lkl.entity.User">
-        <id property="id" column="id"></id>
+    <resultMap id="userMap" type="com.lkl.entity.User">
+        <id property="uid" column="uid"></id>
         <result property="username" column="username"></result>
         <result property="password" column="password"></result>
-        <collection property="roleSet" ofType="com.lkl.entity.Role">
+        <collection property="roles" ofType="com.lkl.entity.Role">
             <id property="rid" column="rid"/>
-            <result property="name" column="result"/>
-            <collection property="permissionSet" ofType="com.lkl.entity.Permission">
+            <result property="rname" column="rname"/>
+            <collection property="permissions" ofType="com.lkl.entity.Permission">
                 <id property="pid" column="pid"/>
-                <result property="name" column="name"/>
+                <result property="pname" column="pname"/>
                 <result property="url" column="url"/>
             </collection>
         </collection>
     </resultMap>
 
-    <sql id="all">
-        username
-    </sql>
+    <!--<sql id="all">-->
+        <!--username,password,rname,pname,url-->
+    <!--</sql>-->
 
-    <select id="findByUserName" parameterType="java.lang.String" resultMap="resultmap">
-        select <include refid="all"/> from user where username = #{username}
+    <select id="findByUserName" parameterType="java.lang.String" resultMap="userMap">
+        select u.*,r.*,p.*
+        from user u
+        INNER JOIN user_role ur on ur.uid = u.uid
+        INNER JOIN role r on ur.rid = r.rid
+        INNER JOIN permission_role pr on r.rid = pr.rid
+        INNER JOIN permission p on pr.pid = p.pid
+        where u.username = #{username}
     </select>
 
 </mapper>
