@@ -32,12 +32,12 @@
 						<!-- 头 像 -->
 						<a href="javascript:;">
 							<img src="admin/images/avatar.jpg" class="layui-nav-img">
-							就眠仪式
+							<span id="userLoginName"></span>
 						</a>
 						<!-- 功 能 菜 单 -->
 						<dl class="layui-nav-child">
 							<dd><a user-menu-url="view/system/person.html" user-menu-id="5555" user-menu-title="基本资料">基本资料</a></dd>
-							<dd><a href="login.html">注销登录</a></dd>
+							<dd><a id="logout">注销登录</a></dd>
 						</dl>
 					</li>
 					<li class="layui-nav-item setting"><a href="#" class="layui-icon layui-icon-more-vertical"></a></li>
@@ -69,13 +69,29 @@
 		<!-- 依 赖 脚 本 -->
 		<script src="component/layui/layui.js"></script>
 		<script src="component/pear/pear.js"></script>
+		<script src="js/site_config.js"></script>
 		<!-- 框 架 初 始 化 -->
 		<script>
-			layui.use(['admin'], function() {
+			layui.use(['admin','jquery','popup'], function() {
 				var admin = layui.admin;
+				var popup = layui.popup;
+				var $ = layui.jquery;
+
+				/* 注销登录 */
+				$("#logout").on("click", function () {
+					$.ajax({
+						type: 'post',
+						url: config.api + "/sys/user/logout",
+						success:function () {
+							location.href = "login.html";
+						}
+					});
+				});
+				/* 缓存取出 */
+				$('#userLoginName').html("asase");
 
 				admin.render();
-			})
+			});
 		</script>
 	</body>
 </html>

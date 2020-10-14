@@ -5,7 +5,6 @@ import com.lkl.entity.Role;
 import com.lkl.entity.User;
 import com.lkl.service.UserService;
 import org.apache.commons.lang3.ObjectUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -23,6 +22,8 @@ public class AuthRealm extends AuthorizingRealm {
 
     @Autowired
     private UserService userService;
+
+    //BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 
     // 认证授权
     @Override
@@ -51,10 +52,14 @@ public class AuthRealm extends AuthorizingRealm {
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         UsernamePasswordToken token = (UsernamePasswordToken)authenticationToken;
         String username = token.getUsername();
+        String password = new String(token.getPassword());
         User user = userService.findByUserName(username);
         if(user == null){
             return null;
         }
+//        if(!bCryptPasswordEncoder.matches(password,user.getPassword())){
+//           return null;
+//        }
         SimpleAuthenticationInfo simpleAuthenticationInfo =
                 new SimpleAuthenticationInfo(
                         user,user.getPassword(),getName()

@@ -60,7 +60,6 @@
 									password:data.field.password
 								},
 								success:function(res){
-									console.log(res)
 									if(res.success == true){
 										popup.success(res.message, function() {
 											location.href = "index.html"
@@ -68,10 +67,11 @@
 									}else{
 										popup.failure(res.message);
 									}
+									localStorage.setItem("user",res)
 								}
 							})
 						}
-					})
+					});
 					return false;
 				});
 			})

@@ -46,4 +46,10 @@ public class SysUserController {
         }
         return result;
     }
+
+    @RequestMapping(value = "/user/logout",method = {RequestMethod.POST,RequestMethod.GET})
+    public void logout(){
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+    }
 }
