@@ -7,7 +7,6 @@ import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-//import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -21,13 +20,20 @@ public class ShiroConfiguration {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         shiroFilterFactoryBean.setSecurityManager(securityManager);
         Map<String,String> filterMap = new LinkedHashMap();
+        /* 放行文件 */
+        filterMap.put("/component/**","anon");
+        filterMap.put("/admin/**","anon");
+        filterMap.put("/js/**","anon");
+        /* 授权文件 */
 
-//        filterMap.put("/del","perms[delete]");
-        filterMap.put("/loginUser","anon");
+        /* 认证文件 */
+        filterMap.put("/readme/**","authc");
+        filterMap.put("/view/**","authc");
         filterMap.put("/*","authc");
 
-        shiroFilterFactoryBean.setLoginUrl("/login");
-        shiroFilterFactoryBean.setUnauthorizedUrl("/unauthorized");
+        shiroFilterFactoryBean.setLoginUrl("/login.html");
+        shiroFilterFactoryBean.setSuccessUrl("/index.html");
+        shiroFilterFactoryBean.setUnauthorizedUrl("/view/error/403.html");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
 
         return shiroFilterFactoryBean;
