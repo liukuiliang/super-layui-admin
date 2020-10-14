@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:shiro="http://www.thymeleaf.org/thymeleaf-extras-shiro">
 <head>
     <meta charset="UTF-8">
     <title>用户添加页面</title>
@@ -7,5 +7,7 @@
 
 <body>
    用户添加页面
+<div shiro:hasPermission="delete">nmd admin</div>
+<div shiro:hasPermission="query">nmd user</div>
 </body>
 </html>
