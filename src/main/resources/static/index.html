@@ -81,14 +81,14 @@
 				$("#logout").on("click", function () {
 					$.ajax({
 						type: 'post',
-						url: config.api + "/sys/user/logout",
+						url: config.api + "/public/user/logout",
 						success:function () {
 							location.href = "login.html";
 						}
 					});
 				});
 				/* 缓存取出 */
-				$('#userLoginName').html("asase");
+				$('#userLoginName').html("admin");
 
 				admin.render();
 			});

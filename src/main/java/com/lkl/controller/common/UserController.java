@@ -1,31 +1,30 @@
-package com.lkl.controller.sys;
+package com.lkl.controller.common;
 
 import com.lkl.entity.User;
 import com.lkl.pojo.Result;
-import com.lkl.service.UserService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @date 14/10/2020
+ * @date 2020/10/14
  * @author 刘奎亮
  */
 @Slf4j
+@Api(tags = "用户公共相关接口")
 @RestController
-@RequestMapping("/sys")
-public class SysUserController {
+@RequestMapping("/public")
+public class UserController {
 
-    @Autowired
-    private UserService userService;
-
+    @ApiOperation("用户登录")
     @RequestMapping(value = "/user/login",method = {RequestMethod.POST,RequestMethod.GET})
     public Result loginUser(User user){
         Result result = new Result();
@@ -36,17 +35,18 @@ public class SysUserController {
             UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(),user.getPassword());
             subject.login(token);
         }catch (UnknownAccountException e){
-            log.error("用户名错误--------{}",    e);
+            log.error("username error--------{}",    e);
             result.setSuccess(false);
             result.setMessage("用户名错误");
         }catch (IncorrectCredentialsException e){
-            log.error("密码错误--------{}",e);
+            log.error("password error--------{}",e);
             result.setSuccess(false);
             result.setMessage("密码错误");
         }
         return result;
     }
 
+    @ApiOperation("用户注销")
     @RequestMapping(value = "/user/logout",method = {RequestMethod.POST,RequestMethod.GET})
     public void logout(){
         Subject subject = SecurityUtils.getSubject();

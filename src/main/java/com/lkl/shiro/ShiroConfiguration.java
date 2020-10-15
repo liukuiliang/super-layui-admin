@@ -11,7 +11,10 @@ import org.springframework.context.annotation.Configuration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-
+/**
+ * @date 2020/10/15
+ * @author 刘奎亮
+ */
 @Configuration
 public class ShiroConfiguration {
 
