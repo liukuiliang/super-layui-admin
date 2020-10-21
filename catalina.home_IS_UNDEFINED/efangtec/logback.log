@@ -4587,3 +4587,996 @@ Cookie: brand=403d2185-5741-4560-bb55-afac2ce71c68; JSESSIONID=D30149DFA40A353F1
 2020-10-21 11:28:20,405 DEBUG [http-nio-8081-exec-7] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@7bd5fcfe:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:14430]]
 2020-10-21 11:28:59,426 DEBUG [http-nio-8081-exec-8] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@13df2a78:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:14431]] with status [ERROR]
 2020-10-21 11:28:59,426 DEBUG [http-nio-8081-exec-8] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@13df2a78:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:14431]]
+2020-10-21 11:48:39,080 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 55] Starting LklsystemApplication on DESKTOP-RQ2SLGI with PID 27308 (D:\Awokspace\systemAdmin\lklSystem\target\classes started by 刘奎亮 in D:\Awokspace\systemAdmin\lklSystem)
+2020-10-21 11:48:39,095 DEBUG [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 56] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-10-21 11:48:39,096 INFO [main] com.lkl.LklsystemApplication [SpringApplication.java : 655] The following profiles are active: dev
+2020-10-21 11:48:42,608 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 224] Searching for mappers annotated with @Mapper
+2020-10-21 11:48:42,610 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 228] Using auto-configuration base package 'com.lkl'
+2020-10-21 11:48:43,054 DEBUG [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-10-21 11:48:43,072 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Creating MapperFactoryBean with name 'userMapper' and 'com.lkl.mapper.UserMapper' mapperInterface
+2020-10-21 11:48:43,073 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2020-10-21 11:48:44,584 DEBUG [main] com.zaxxer.hikari.HikariConfig [HikariConfig.java : 946] Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-10-21 11:48:46,633 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:48:47,082 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 424] Creating Shiro Filter instance.
+2020-10-21 11:48:47,127 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/config/**] from String definition [anon]
+2020-10-21 11:48:47,128 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/config/**] to filter [anon] with config [null]
+2020-10-21 11:48:47,131 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/https/**] from String definition [anon]
+2020-10-21 11:48:47,131 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/https/**] to filter [anon] with config [null]
+2020-10-21 11:48:47,132 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/lib/**] from String definition [anon]
+2020-10-21 11:48:47,132 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/lib/**] to filter [anon] with config [null]
+2020-10-21 11:48:47,133 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/images/**] from String definition [anon]
+2020-10-21 11:48:47,133 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/images/**] to filter [anon] with config [null]
+2020-10-21 11:48:47,133 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/js/**] from String definition [anon]
+2020-10-21 11:48:47,134 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/js/**] to filter [anon] with config [null]
+2020-10-21 11:48:47,134 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/page/**] from String definition [authc]
+2020-10-21 11:48:47,134 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/page/**] to filter [authc] with config [null]
+2020-10-21 11:48:47,134 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/*] from String definition [authc]
+2020-10-21 11:48:47,135 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/*] to filter [authc] with config [null]
+2020-10-21 11:48:47,152 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'requestContextFilter'
+2020-10-21 11:48:47,163 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'formContentFilter'
+2020-10-21 11:48:47,168 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'characterEncodingFilter'
+2020-10-21 11:48:48,690 DEBUG [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 54] initialising the handler methods
+2020-10-21 11:48:48,698 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-21 11:48:49,378 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 261] Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2020-10-21 11:48:49,514 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:48:49,600 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-10-21 11:48:49,691 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-10-21 11:48:49,764 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 50] Total number of request handlers 8
+2020-10-21 11:48:49,765 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/common/token/idcard], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/common/token/idcard], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,768 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,768 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-10-21 11:48:49,769 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/login], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/login], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,769 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/logout], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/logout], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,769 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,769 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,770 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:48:49,840 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 58] Combined number of request handlers 8
+2020-10-21 11:48:49,844 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-10-21 11:48:49,909 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/lang/String;
+2020-10-21 11:48:49,913 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:48:49,916 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |getToken|
+2020-10-21 11:48:49,921 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:48:49,961 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:48:49,967 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for java.lang.String
+2020-10-21 11:48:49,968 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 113] Marking base type Ljava/lang/String; as seen
+2020-10-21 11:48:50,016 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:48:50,021 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:48:50,022 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:48:50,075 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:48:50,100 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:48:50,101 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:48:50,102 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:48:50,103 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:48:50,173 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Lcom/lkl/pojo/Result;
+2020-10-21 11:48:50,174 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:48:50,174 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:48:50,175 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:48:50,251 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property success
+2020-10-21 11:48:50,264 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:48:50,267 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'success' renamed to 'success'
+2020-10-21 11:48:50,268 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property success to model
+2020-10-21 11:48:50,270 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:48:50,271 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:48:50,271 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:48:50,272 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:48:50,275 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:48:50,276 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,277 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:48:50,278 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:48:50,278 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,278 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,279 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,280 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,280 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property resultCode
+2020-10-21 11:48:50,283 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:48:50,284 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'resultCode' renamed to 'resultCode'
+2020-10-21 11:48:50,284 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property resultCode to model
+2020-10-21 11:48:50,285 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:48:50,285 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:48:50,285 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:48:50,286 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:48:50,288 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property all
+2020-10-21 11:48:50,289 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:48:50,289 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'all' renamed to 'all'
+2020-10-21 11:48:50,290 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property all to model
+2020-10-21 11:48:50,290 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:48:50,290 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:48:50,293 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:48:50,293 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:48:50,308 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 4 properties. Properties found all, message, resultCode, success
+2020-10-21 11:48:50,312 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 71] Generated parameter model id: Result, name: Result, schema: {} models
+2020-10-21 11:48:50,313 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key Result
+2020-10-21 11:48:50,316 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 177] Adding type Lcom/lkl/pojo/ResultCode; for parameter resultCode
+2020-10-21 11:48:50,316 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 206] Recursively resolving dependencies for type Lcom/lkl/pojo/ResultCode;
+2020-10-21 11:48:50,319 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property code
+2020-10-21 11:48:50,322 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:48:50,322 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'code' renamed to 'code'
+2020-10-21 11:48:50,323 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property code to model
+2020-10-21 11:48:50,323 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:48:50,324 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:48:50,324 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:48:50,325 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:48:50,325 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:48:50,326 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,326 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:48:50,327 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:48:50,327 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,327 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,331 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,332 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:48:50,334 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 2 properties. Properties found code, message
+2020-10-21 11:48:50,335 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key ResultCode
+2020-10-21 11:48:50,356 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:48:50,376 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:48:50,387 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:48:50,392 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:48:50,398 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:48:50,399 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:48:50,401 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:48:50,402 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:48:50,405 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:48:50,405 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@41cd5e3a
+2020-10-21 11:48:50,406 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@41cd5e3a, with type: 
+2020-10-21 11:48:50,415 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@38df7e4f
+2020-10-21 11:48:50,416 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@38df7e4f, with type: 
+2020-10-21 11:48:50,417 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@42ea1303
+2020-10-21 11:48:50,417 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@42ea1303, with type: 
+2020-10-21 11:48:50,418 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7b6035f2
+2020-10-21 11:48:50,418 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7b6035f2, with type: 
+2020-10-21 11:48:50,419 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6b5d7799
+2020-10-21 11:48:50,419 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6b5d7799, with type: 
+2020-10-21 11:48:50,420 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@286e298f
+2020-10-21 11:48:50,420 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@286e298f, with type: 
+2020-10-21 11:48:50,420 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@44d673e
+2020-10-21 11:48:50,421 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@44d673e, with type: 
+2020-10-21 11:48:50,421 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2d7152f3
+2020-10-21 11:48:50,421 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2d7152f3, with type: 
+2020-10-21 11:48:50,422 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:48:50,423 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:48:50,424 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:48:50,425 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:48:50,427 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:48:50,429 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:48:50,430 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:48:50,431 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:48:50,431 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:48:50,432 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:48:50,433 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:48:50,434 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:48:50,435 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:48:50,435 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@39b8ebad
+2020-10-21 11:48:50,435 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@39b8ebad, with type: 
+2020-10-21 11:48:50,436 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4bd682ef
+2020-10-21 11:48:50,436 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4bd682ef, with type: 
+2020-10-21 11:48:50,437 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2159ac6d
+2020-10-21 11:48:50,437 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2159ac6d, with type: 
+2020-10-21 11:48:50,438 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a74123a
+2020-10-21 11:48:50,438 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a74123a, with type: 
+2020-10-21 11:48:50,439 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@18a3d181
+2020-10-21 11:48:50,439 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@18a3d181, with type: 
+2020-10-21 11:48:50,439 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@17938666
+2020-10-21 11:48:50,440 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@17938666, with type: 
+2020-10-21 11:48:50,440 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@12f80faa
+2020-10-21 11:48:50,440 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@12f80faa, with type: 
+2020-10-21 11:48:50,441 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3b634b2b
+2020-10-21 11:48:50,441 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3b634b2b, with type: 
+2020-10-21 11:48:50,442 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:48:50,442 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:48:50,443 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:48:50,444 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:48:50,445 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type V
+2020-10-21 11:48:50,446 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:48:50,446 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |logout|
+2020-10-21 11:48:50,447 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:48:50,447 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:48:50,448 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for void
+2020-10-21 11:48:50,449 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:48:50,450 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:48:50,450 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:48:50,452 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:48:50,453 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:48:50,453 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:48:50,521 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 61] Started LklsystemApplication in 15.553 seconds (JVM running for 21.852)
+2020-10-21 11:49:08,750 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]] with status [OPEN_READ]
+2020-10-21 11:49:08,751 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]]
+2020-10-21 11:49:08,753 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [null] from cache
+2020-10-21 11:49:08,862 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Register [org.apache.coyote.http11.Http11Processor@5e525539] as [Tomcat:type=RequestProcessor,worker="http-nio-8081",name=HttpRequest1]
+2020-10-21 11:49:08,862 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Created new processor [org.apache.coyote.http11.Http11Processor@5e525539]
+2020-10-21 11:49:08,865 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+
+]
+2020-10-21 11:49:09,512 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4827b5b0:org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:49:09,512 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@5e525539]
+2020-10-21 11:49:09,515 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]] with status [OPEN_READ]
+2020-10-21 11:49:09,516 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]]
+2020-10-21 11:49:09,517 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@5e525539] from cache
+2020-10-21 11:49:09,518 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /login.html;jsessionid=C16DC08DA29F600FFFAA149E97964BF7 HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=C16DC08DA29F600FFFAA149E97964BF7
+
+]
+2020-10-21 11:49:09,539 DEBUG [http-nio-8081-exec-2] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /login.html
+2020-10-21 11:49:09,568 DEBUG [http-nio-8081-exec-2] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:49:09,705 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4827b5b0:org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:49:09,706 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@5e525539]
+2020-10-21 11:49:09,853 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]] with status [OPEN_READ]
+2020-10-21 11:49:09,853 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]]
+2020-10-21 11:49:09,854 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@5e525539] from cache
+2020-10-21 11:49:09,854 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /favicon.ico HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8081/login.html;jsessionid=C16DC08DA29F600FFFAA149E97964BF7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=C16DC08DA29F600FFFAA149E97964BF7
+
+]
+2020-10-21 11:49:09,864 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4827b5b0:org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:49:09,864 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@5e525539]
+2020-10-21 11:49:09,868 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]] with status [OPEN_READ]
+2020-10-21 11:49:09,869 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]]
+2020-10-21 11:49:09,869 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@5e525539] from cache
+2020-10-21 11:49:09,870 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /login.html HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8081/login.html;jsessionid=C16DC08DA29F600FFFAA149E97964BF7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=C16DC08DA29F600FFFAA149E97964BF7
+
+]
+2020-10-21 11:49:09,873 DEBUG [http-nio-8081-exec-4] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /login.html
+2020-10-21 11:49:09,883 DEBUG [http-nio-8081-exec-4] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:49:10,086 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4827b5b0:org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:49:10,087 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@5e525539]
+2020-10-21 11:50:09,190 DEBUG [http-nio-8081-exec-5] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@5d412d14:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15364]] with status [ERROR]
+2020-10-21 11:50:09,191 DEBUG [http-nio-8081-exec-5] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@5d412d14:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15364]]
+2020-10-21 11:50:10,193 DEBUG [http-nio-8081-exec-6] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]] with status [ERROR]
+2020-10-21 11:50:10,194 DEBUG [http-nio-8081-exec-6] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@325d06c:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15365]]
+2020-10-21 11:52:01,500 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 55] Starting LklsystemApplication on DESKTOP-RQ2SLGI with PID 26700 (D:\Awokspace\systemAdmin\lklSystem\target\classes started by 刘奎亮 in D:\Awokspace\systemAdmin\lklSystem)
+2020-10-21 11:52:01,511 DEBUG [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 56] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-10-21 11:52:01,511 INFO [main] com.lkl.LklsystemApplication [SpringApplication.java : 655] The following profiles are active: dev
+2020-10-21 11:52:06,937 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 224] Searching for mappers annotated with @Mapper
+2020-10-21 11:52:06,939 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 228] Using auto-configuration base package 'com.lkl'
+2020-10-21 11:52:07,395 DEBUG [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-10-21 11:52:07,412 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Creating MapperFactoryBean with name 'userMapper' and 'com.lkl.mapper.UserMapper' mapperInterface
+2020-10-21 11:52:07,414 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2020-10-21 11:52:09,435 DEBUG [main] com.zaxxer.hikari.HikariConfig [HikariConfig.java : 946] Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-10-21 11:52:12,085 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:52:12,546 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 424] Creating Shiro Filter instance.
+2020-10-21 11:52:12,596 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/config/**] from String definition [anon]
+2020-10-21 11:52:12,596 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/config/**] to filter [anon] with config [null]
+2020-10-21 11:52:12,601 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/https/**] from String definition [anon]
+2020-10-21 11:52:12,601 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/https/**] to filter [anon] with config [null]
+2020-10-21 11:52:12,602 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/lib/**] from String definition [anon]
+2020-10-21 11:52:12,603 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/lib/**] to filter [anon] with config [null]
+2020-10-21 11:52:12,603 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/images/**] from String definition [anon]
+2020-10-21 11:52:12,603 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/images/**] to filter [anon] with config [null]
+2020-10-21 11:52:12,604 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/js/**] from String definition [anon]
+2020-10-21 11:52:12,604 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/js/**] to filter [anon] with config [null]
+2020-10-21 11:52:12,604 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/page/**] from String definition [authc]
+2020-10-21 11:52:12,605 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/page/**] to filter [authc] with config [null]
+2020-10-21 11:52:12,606 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/*] from String definition [authc]
+2020-10-21 11:52:12,607 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/*] to filter [authc] with config [null]
+2020-10-21 11:52:12,620 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'requestContextFilter'
+2020-10-21 11:52:12,631 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'formContentFilter'
+2020-10-21 11:52:12,635 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'characterEncodingFilter'
+2020-10-21 11:52:14,040 DEBUG [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 54] initialising the handler methods
+2020-10-21 11:52:14,049 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-21 11:52:14,708 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 261] Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2020-10-21 11:52:14,947 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:52:15,021 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-10-21 11:52:15,111 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-10-21 11:52:15,156 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 50] Total number of request handlers 8
+2020-10-21 11:52:15,159 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/common/token/idcard], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/common/token/idcard], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,163 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,164 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-10-21 11:52:15,164 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/login], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/login], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,165 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/logout], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/logout], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,165 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,165 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,165 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:52:15,213 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 58] Combined number of request handlers 8
+2020-10-21 11:52:15,215 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-10-21 11:52:15,248 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/lang/String;
+2020-10-21 11:52:15,251 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:52:15,253 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |getToken|
+2020-10-21 11:52:15,257 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:52:15,290 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:52:15,296 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for java.lang.String
+2020-10-21 11:52:15,297 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 113] Marking base type Ljava/lang/String; as seen
+2020-10-21 11:52:15,341 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:52:15,346 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:52:15,347 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:52:15,414 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:52:15,439 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:52:15,440 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:52:15,441 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:52:15,442 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:52:15,506 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Lcom/lkl/pojo/Result;
+2020-10-21 11:52:15,506 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:52:15,507 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:52:15,508 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:52:15,593 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property success
+2020-10-21 11:52:15,605 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:52:15,608 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'success' renamed to 'success'
+2020-10-21 11:52:15,609 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property success to model
+2020-10-21 11:52:15,612 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:52:15,612 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:52:15,613 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:52:15,615 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:52:15,620 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:52:15,621 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,623 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:52:15,623 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:52:15,624 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,624 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,625 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,625 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,625 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property resultCode
+2020-10-21 11:52:15,627 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:52:15,627 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'resultCode' renamed to 'resultCode'
+2020-10-21 11:52:15,628 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property resultCode to model
+2020-10-21 11:52:15,628 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:52:15,628 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:52:15,629 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:52:15,630 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:52:15,633 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property all
+2020-10-21 11:52:15,635 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:52:15,636 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'all' renamed to 'all'
+2020-10-21 11:52:15,636 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property all to model
+2020-10-21 11:52:15,637 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:52:15,637 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:52:15,641 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:52:15,641 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:52:15,663 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 4 properties. Properties found all, message, resultCode, success
+2020-10-21 11:52:15,666 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 71] Generated parameter model id: Result, name: Result, schema: {} models
+2020-10-21 11:52:15,666 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key Result
+2020-10-21 11:52:15,669 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 177] Adding type Lcom/lkl/pojo/ResultCode; for parameter resultCode
+2020-10-21 11:52:15,670 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 206] Recursively resolving dependencies for type Lcom/lkl/pojo/ResultCode;
+2020-10-21 11:52:15,673 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property code
+2020-10-21 11:52:15,674 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:52:15,676 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'code' renamed to 'code'
+2020-10-21 11:52:15,678 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property code to model
+2020-10-21 11:52:15,678 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:52:15,679 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:52:15,679 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:52:15,679 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:52:15,680 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:52:15,681 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,681 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:52:15,682 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:52:15,682 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,682 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,684 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,684 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:52:15,687 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 2 properties. Properties found code, message
+2020-10-21 11:52:15,688 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key ResultCode
+2020-10-21 11:52:15,712 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:52:15,868 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:52:15,881 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:52:15,893 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:52:15,897 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:52:15,898 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:52:15,911 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:52:15,914 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:52:15,917 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:52:15,919 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3892b5b1
+2020-10-21 11:52:15,920 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3892b5b1, with type: 
+2020-10-21 11:52:15,928 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@20aa874e
+2020-10-21 11:52:15,929 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@20aa874e, with type: 
+2020-10-21 11:52:15,930 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2e446441
+2020-10-21 11:52:15,930 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2e446441, with type: 
+2020-10-21 11:52:15,931 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@699cff8d
+2020-10-21 11:52:15,931 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@699cff8d, with type: 
+2020-10-21 11:52:15,931 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2a72d9f7
+2020-10-21 11:52:15,932 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@2a72d9f7, with type: 
+2020-10-21 11:52:15,933 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@5c1e9c80
+2020-10-21 11:52:15,934 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@5c1e9c80, with type: 
+2020-10-21 11:52:15,934 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@791595bc
+2020-10-21 11:52:15,935 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@791595bc, with type: 
+2020-10-21 11:52:15,935 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4f90ffab
+2020-10-21 11:52:15,936 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4f90ffab, with type: 
+2020-10-21 11:52:15,937 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:52:15,938 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:52:15,939 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:52:15,953 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:52:15,956 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:52:15,957 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:52:15,957 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:52:15,958 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:52:15,958 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:52:15,959 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:52:15,960 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:52:15,962 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:52:15,963 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:52:15,964 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a83f695
+2020-10-21 11:52:15,964 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a83f695, with type: 
+2020-10-21 11:52:15,964 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6fa64175
+2020-10-21 11:52:15,964 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6fa64175, with type: 
+2020-10-21 11:52:15,965 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6f2b0d13
+2020-10-21 11:52:15,966 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6f2b0d13, with type: 
+2020-10-21 11:52:15,966 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@596b2cce
+2020-10-21 11:52:15,966 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@596b2cce, with type: 
+2020-10-21 11:52:15,967 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@26550cf6
+2020-10-21 11:52:15,967 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@26550cf6, with type: 
+2020-10-21 11:52:15,975 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@18a3d181
+2020-10-21 11:52:15,976 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@18a3d181, with type: 
+2020-10-21 11:52:15,977 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@39b8ebad
+2020-10-21 11:52:15,977 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@39b8ebad, with type: 
+2020-10-21 11:52:15,978 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4bd682ef
+2020-10-21 11:52:15,978 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4bd682ef, with type: 
+2020-10-21 11:52:15,979 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:52:15,980 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:52:15,980 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:52:15,981 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:52:15,983 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type V
+2020-10-21 11:52:15,983 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:52:15,983 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |logout|
+2020-10-21 11:52:15,984 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:52:15,984 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:52:15,984 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for void
+2020-10-21 11:52:15,985 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:52:15,986 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:52:15,986 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:52:15,988 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:52:15,988 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:52:15,989 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:52:16,039 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 61] Started LklsystemApplication in 18.678 seconds (JVM running for 29.898)
+2020-10-21 11:52:21,055 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]] with status [OPEN_READ]
+2020-10-21 11:52:21,056 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]]
+2020-10-21 11:52:21,063 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [null] from cache
+2020-10-21 11:52:21,516 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Register [org.apache.coyote.http11.Http11Processor@24e1ace9] as [Tomcat:type=RequestProcessor,worker="http-nio-8081",name=HttpRequest1]
+2020-10-21 11:52:21,518 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Created new processor [org.apache.coyote.http11.Http11Processor@24e1ace9]
+2020-10-21 11:52:21,522 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /login.html;jsessionid=C16DC08DA29F600FFFAA149E97964BF7 HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=C16DC08DA29F600FFFAA149E97964BF7
+
+]
+2020-10-21 11:52:22,784 DEBUG [http-nio-8081-exec-1] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /login.html
+2020-10-21 11:52:22,838 DEBUG [http-nio-8081-exec-1] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:52:22,956 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@578772c:org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:52:22,957 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@24e1ace9]
+2020-10-21 11:52:43,021 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]] with status [OPEN_READ]
+2020-10-21 11:52:43,022 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]]
+2020-10-21 11:52:43,023 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@24e1ace9] from cache
+2020-10-21 11:52:43,023 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET / HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=C16DC08DA29F600FFFAA149E97964BF7
+
+]
+2020-10-21 11:52:43,088 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@578772c:org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:52:43,089 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@24e1ace9]
+2020-10-21 11:52:43,094 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]] with status [OPEN_READ]
+2020-10-21 11:52:43,094 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]]
+2020-10-21 11:52:43,094 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@24e1ace9] from cache
+2020-10-21 11:52:43,095 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /login.html HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=7742EC50875FA582F034EC321EBC449D
+
+]
+2020-10-21 11:52:43,104 DEBUG [http-nio-8081-exec-3] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /login.html
+2020-10-21 11:52:43,112 DEBUG [http-nio-8081-exec-3] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:52:43,122 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@578772c:org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:52:43,123 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@24e1ace9]
+2020-10-21 11:53:21,145 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@465aa71b:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15511]] with status [ERROR]
+2020-10-21 11:53:21,146 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@465aa71b:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15511]]
+2020-10-21 11:53:43,157 DEBUG [http-nio-8081-exec-5] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]] with status [ERROR]
+2020-10-21 11:53:43,157 DEBUG [http-nio-8081-exec-5] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@70771192:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15512]]
+2020-10-21 11:55:36,531 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 55] Starting LklsystemApplication on DESKTOP-RQ2SLGI with PID 7092 (D:\Awokspace\systemAdmin\lklSystem\target\classes started by 刘奎亮 in D:\Awokspace\systemAdmin\lklSystem)
+2020-10-21 11:55:36,542 DEBUG [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 56] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-10-21 11:55:36,543 INFO [main] com.lkl.LklsystemApplication [SpringApplication.java : 655] The following profiles are active: dev
+2020-10-21 11:55:39,553 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 224] Searching for mappers annotated with @Mapper
+2020-10-21 11:55:39,554 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 228] Using auto-configuration base package 'com.lkl'
+2020-10-21 11:55:39,986 DEBUG [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-10-21 11:55:40,016 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Creating MapperFactoryBean with name 'userMapper' and 'com.lkl.mapper.UserMapper' mapperInterface
+2020-10-21 11:55:40,019 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2020-10-21 11:55:41,488 DEBUG [main] com.zaxxer.hikari.HikariConfig [HikariConfig.java : 946] Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-10-21 11:55:43,396 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:55:43,863 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 424] Creating Shiro Filter instance.
+2020-10-21 11:55:43,900 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF.resources/config/**] from String definition [anon]
+2020-10-21 11:55:43,900 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF.resources/config/**] to filter [anon] with config [null]
+2020-10-21 11:55:43,904 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF.resources/https/**] from String definition [anon]
+2020-10-21 11:55:43,905 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF.resources/https/**] to filter [anon] with config [null]
+2020-10-21 11:55:43,905 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF.resources/lib/**] from String definition [anon]
+2020-10-21 11:55:43,905 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF.resources/lib/**] to filter [anon] with config [null]
+2020-10-21 11:55:43,906 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/images/**] from String definition [anon]
+2020-10-21 11:55:43,906 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/images/**] to filter [anon] with config [null]
+2020-10-21 11:55:43,906 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/js/**] from String definition [anon]
+2020-10-21 11:55:43,907 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/js/**] to filter [anon] with config [null]
+2020-10-21 11:55:43,907 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/page/**] from String definition [authc]
+2020-10-21 11:55:43,907 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/page/**] to filter [authc] with config [null]
+2020-10-21 11:55:43,908 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/*] from String definition [authc]
+2020-10-21 11:55:43,908 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/*] to filter [authc] with config [null]
+2020-10-21 11:55:43,921 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'requestContextFilter'
+2020-10-21 11:55:43,930 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'formContentFilter'
+2020-10-21 11:55:43,933 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'characterEncodingFilter'
+2020-10-21 11:55:45,220 DEBUG [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 54] initialising the handler methods
+2020-10-21 11:55:45,229 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-21 11:55:45,856 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 261] Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2020-10-21 11:55:45,984 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:55:46,076 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-10-21 11:55:46,158 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-10-21 11:55:46,201 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 50] Total number of request handlers 8
+2020-10-21 11:55:46,202 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/common/token/idcard], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/common/token/idcard], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,205 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,205 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-10-21 11:55:46,206 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/login], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/login], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,206 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/logout], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/logout], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,206 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,207 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,207 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:55:46,254 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 58] Combined number of request handlers 8
+2020-10-21 11:55:46,257 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-10-21 11:55:46,295 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/lang/String;
+2020-10-21 11:55:46,298 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:55:46,302 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |getToken|
+2020-10-21 11:55:46,307 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:55:46,350 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:55:46,358 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for java.lang.String
+2020-10-21 11:55:46,360 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 113] Marking base type Ljava/lang/String; as seen
+2020-10-21 11:55:46,421 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:55:46,427 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:55:46,431 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:55:46,486 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:55:46,507 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:55:46,507 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:55:46,508 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:55:46,509 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:55:46,605 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Lcom/lkl/pojo/Result;
+2020-10-21 11:55:46,607 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:55:46,607 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:55:46,608 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:55:46,692 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property success
+2020-10-21 11:55:46,704 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:55:46,707 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'success' renamed to 'success'
+2020-10-21 11:55:46,708 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property success to model
+2020-10-21 11:55:46,711 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:55:46,713 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:55:46,714 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:55:46,715 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:55:46,719 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:55:46,720 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,721 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:55:46,721 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:55:46,722 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,722 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,722 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,723 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,723 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property resultCode
+2020-10-21 11:55:46,727 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:55:46,728 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'resultCode' renamed to 'resultCode'
+2020-10-21 11:55:46,729 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property resultCode to model
+2020-10-21 11:55:46,729 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:55:46,730 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:55:46,730 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:55:46,731 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:55:46,734 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property all
+2020-10-21 11:55:46,736 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:55:46,736 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'all' renamed to 'all'
+2020-10-21 11:55:46,737 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property all to model
+2020-10-21 11:55:46,737 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:55:46,738 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:55:46,739 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:55:46,740 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:55:46,761 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 4 properties. Properties found all, message, resultCode, success
+2020-10-21 11:55:46,773 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 71] Generated parameter model id: Result, name: Result, schema: {} models
+2020-10-21 11:55:46,773 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key Result
+2020-10-21 11:55:46,776 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 177] Adding type Lcom/lkl/pojo/ResultCode; for parameter resultCode
+2020-10-21 11:55:46,777 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 206] Recursively resolving dependencies for type Lcom/lkl/pojo/ResultCode;
+2020-10-21 11:55:46,779 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property code
+2020-10-21 11:55:46,781 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:55:46,782 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'code' renamed to 'code'
+2020-10-21 11:55:46,783 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property code to model
+2020-10-21 11:55:46,783 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:55:46,784 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:55:46,785 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:55:46,786 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:55:46,786 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:55:46,787 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,787 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:55:46,787 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:55:46,788 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,788 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,788 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,789 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:55:46,791 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 2 properties. Properties found code, message
+2020-10-21 11:55:46,794 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key ResultCode
+2020-10-21 11:55:46,817 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:55:46,835 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:55:46,840 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:55:46,845 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:55:46,849 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:55:46,851 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:55:46,853 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:55:46,854 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:55:46,857 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:55:46,858 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6ce14034
+2020-10-21 11:55:46,858 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6ce14034, with type: 
+2020-10-21 11:55:46,866 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4b9a7982
+2020-10-21 11:55:46,866 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4b9a7982, with type: 
+2020-10-21 11:55:46,867 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7703ff45
+2020-10-21 11:55:46,867 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7703ff45, with type: 
+2020-10-21 11:55:46,868 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3271da9e
+2020-10-21 11:55:46,868 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3271da9e, with type: 
+2020-10-21 11:55:46,869 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@579a4b4
+2020-10-21 11:55:46,869 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@579a4b4, with type: 
+2020-10-21 11:55:46,870 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1ba16f7d
+2020-10-21 11:55:46,870 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1ba16f7d, with type: 
+2020-10-21 11:55:46,870 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@280e45c3
+2020-10-21 11:55:46,871 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@280e45c3, with type: 
+2020-10-21 11:55:46,871 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@76c71fb
+2020-10-21 11:55:46,872 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@76c71fb, with type: 
+2020-10-21 11:55:46,872 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:55:46,873 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:55:46,873 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:55:46,874 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:55:46,876 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:55:46,876 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:55:46,877 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:55:46,877 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:55:46,878 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:55:46,879 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:55:46,879 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:55:46,880 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:55:46,880 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:55:46,881 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@de14eac
+2020-10-21 11:55:46,881 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@de14eac, with type: 
+2020-10-21 11:55:46,882 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@b0f929
+2020-10-21 11:55:46,882 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@b0f929, with type: 
+2020-10-21 11:55:46,883 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@72b06e15
+2020-10-21 11:55:46,883 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@72b06e15, with type: 
+2020-10-21 11:55:46,883 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@36988d5f
+2020-10-21 11:55:46,884 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@36988d5f, with type: 
+2020-10-21 11:55:46,884 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@200a0ece
+2020-10-21 11:55:46,884 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@200a0ece, with type: 
+2020-10-21 11:55:46,884 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6f628858
+2020-10-21 11:55:46,885 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6f628858, with type: 
+2020-10-21 11:55:46,885 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@100b823f
+2020-10-21 11:55:46,885 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@100b823f, with type: 
+2020-10-21 11:55:46,886 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1959a71
+2020-10-21 11:55:46,886 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@1959a71, with type: 
+2020-10-21 11:55:46,887 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:55:46,888 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:55:46,888 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:55:46,889 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:55:46,891 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type V
+2020-10-21 11:55:46,891 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:55:46,892 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |logout|
+2020-10-21 11:55:46,892 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:55:46,893 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:55:46,893 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for void
+2020-10-21 11:55:46,894 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:55:46,895 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:55:46,895 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:55:46,897 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:55:46,897 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:55:46,898 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:55:46,975 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 61] Started LklsystemApplication in 15.271 seconds (JVM running for 24.001)
+2020-10-21 11:55:51,860 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]] with status [OPEN_READ]
+2020-10-21 11:55:51,861 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]]
+2020-10-21 11:55:51,874 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [null] from cache
+2020-10-21 11:55:52,093 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Register [org.apache.coyote.http11.Http11Processor@6e66aaaf] as [Tomcat:type=RequestProcessor,worker="http-nio-8081",name=HttpRequest1]
+2020-10-21 11:55:52,096 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Created new processor [org.apache.coyote.http11.Http11Processor@6e66aaaf]
+2020-10-21 11:55:52,101 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /login.html HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=7742EC50875FA582F034EC321EBC449D
+
+]
+2020-10-21 11:55:52,903 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4c4b254a:org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:55:52,904 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@6e66aaaf]
+2020-10-21 11:55:53,032 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]] with status [OPEN_READ]
+2020-10-21 11:55:53,033 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]]
+2020-10-21 11:55:53,033 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [org.apache.coyote.http11.Http11Processor@6e66aaaf] from cache
+2020-10-21 11:55:53,034 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /META-INF.resources/login.html HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=BA3618D4D3A137600A3C98A13D5083B9
+
+]
+2020-10-21 11:55:53,055 DEBUG [http-nio-8081-exec-2] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /META-INF.resources/login.html
+2020-10-21 11:55:53,108 DEBUG [http-nio-8081-exec-2] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:55:53,314 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4c4b254a:org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:55:53,314 DEBUG [http-nio-8081-exec-2] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@6e66aaaf]
+2020-10-21 11:56:52,347 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@75e728b6:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15642]] with status [ERROR]
+2020-10-21 11:56:52,348 DEBUG [http-nio-8081-exec-3] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@75e728b6:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15642]]
+2020-10-21 11:56:53,347 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]] with status [ERROR]
+2020-10-21 11:56:53,348 DEBUG [http-nio-8081-exec-4] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@612add1f:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15641]]
+2020-10-21 11:57:43,341 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 55] Starting LklsystemApplication on DESKTOP-RQ2SLGI with PID 1064 (D:\Awokspace\systemAdmin\lklSystem\target\classes started by 刘奎亮 in D:\Awokspace\systemAdmin\lklSystem)
+2020-10-21 11:57:43,353 DEBUG [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 56] Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-10-21 11:57:43,354 INFO [main] com.lkl.LklsystemApplication [SpringApplication.java : 655] The following profiles are active: dev
+2020-10-21 11:57:46,194 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 224] Searching for mappers annotated with @Mapper
+2020-10-21 11:57:46,196 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 228] Using auto-configuration base package 'com.lkl'
+2020-10-21 11:57:46,637 DEBUG [main] org.apache.ibatis.logging.LogFactory [LogFactory.java : 105] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-10-21 11:57:46,654 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Creating MapperFactoryBean with name 'userMapper' and 'com.lkl.mapper.UserMapper' mapperInterface
+2020-10-21 11:57:46,656 DEBUG [main] o.m.s.mapper.ClassPathMapperScanner [Logger.java : 49] Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2020-10-21 11:57:48,188 DEBUG [main] com.zaxxer.hikari.HikariConfig [HikariConfig.java : 946] Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2020-10-21 11:57:50,266 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:57:50,753 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 424] Creating Shiro Filter instance.
+2020-10-21 11:57:50,798 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF/config/**] from String definition [anon]
+2020-10-21 11:57:50,799 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF/config/**] to filter [anon] with config [null]
+2020-10-21 11:57:50,802 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF/https/**] from String definition [anon]
+2020-10-21 11:57:50,803 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF/https/**] to filter [anon] with config [null]
+2020-10-21 11:57:50,803 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/META-INF/lib/**] from String definition [anon]
+2020-10-21 11:57:50,803 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/META-INF/lib/**] to filter [anon] with config [null]
+2020-10-21 11:57:50,804 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/images/**] from String definition [anon]
+2020-10-21 11:57:50,804 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/images/**] to filter [anon] with config [null]
+2020-10-21 11:57:50,804 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/js/**] from String definition [anon]
+2020-10-21 11:57:50,804 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/js/**] to filter [anon] with config [null]
+2020-10-21 11:57:50,805 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/page/**] from String definition [authc]
+2020-10-21 11:57:50,805 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/page/**] to filter [authc] with config [null]
+2020-10-21 11:57:50,806 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 127] Creating chain [/*] from String definition [authc]
+2020-10-21 11:57:50,806 DEBUG [main] o.a.s.w.f.m.DefaultFilterChainManager [DefaultFilterChainManager.java : 278] Attempting to apply path [/*] to filter [authc] with config [null]
+2020-10-21 11:57:50,819 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'requestContextFilter'
+2020-10-21 11:57:50,828 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'formContentFilter'
+2020-10-21 11:57:50,832 DEBUG [main] o.a.s.s.web.ShiroFilterFactoryBean [ShiroFilterFactoryBean.java : 501] Found filter chain candidate filter 'characterEncodingFilter'
+2020-10-21 11:57:52,282 DEBUG [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 54] initialising the handler methods
+2020-10-21 11:57:52,290 INFO [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-21 11:57:52,986 DEBUG [main] o.m.s.b.a.MybatisAutoConfiguration [MybatisAutoConfiguration.java : 261] Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2020-10-21 11:57:53,121 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2020-10-21 11:57:53,200 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 160] Context refreshed
+2020-10-21 11:57:53,291 INFO [main] s.d.s.w.p.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 163] Found 1 custom documentation plugin(s)
+2020-10-21 11:57:53,333 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 50] Total number of request handlers 8
+2020-10-21 11:57:53,334 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/common/token/idcard], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/common/token/idcard], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,336 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,337 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-10-21 11:57:53,337 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/login], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/login], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,337 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/public/user/logout], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/public/user/logout], supportedMethods=[POST, GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,338 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,338 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,338 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 52] Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-10-21 11:57:53,398 DEBUG [main] s.d.s.w.p.DefaultRequestHandlerCombiner [DefaultRequestHandlerCombiner.java : 58] Combined number of request handlers 8
+2020-10-21 11:57:53,401 INFO [main] s.d.s.w.s.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 41] Scanning for api listing references
+2020-10-21 11:57:53,454 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Ljava/lang/String;
+2020-10-21 11:57:53,458 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:57:53,462 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |getToken|
+2020-10-21 11:57:53,468 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |getToken|
+2020-10-21 11:57:53,512 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:57:53,518 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for java.lang.String
+2020-10-21 11:57:53,519 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 113] Marking base type Ljava/lang/String; as seen
+2020-10-21 11:57:53,567 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:57:53,571 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:57:53,572 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:57:53,647 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:57:53,684 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: string
+2020-10-21 11:57:53,684 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method getToken
+2020-10-21 11:57:53,685 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:string
+2020-10-21 11:57:53,686 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method getToken
+2020-10-21 11:57:53,755 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type Lcom/lkl/pojo/Result;
+2020-10-21 11:57:53,756 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:57:53,756 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:57:53,757 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |loginUser|
+2020-10-21 11:57:53,837 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property success
+2020-10-21 11:57:53,850 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:57:53,855 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'success' renamed to 'success'
+2020-10-21 11:57:53,855 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property success to model
+2020-10-21 11:57:53,857 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:57:53,858 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:57:53,859 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:57:53,860 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member isSuccess
+2020-10-21 11:57:53,864 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:57:53,865 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,866 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:57:53,867 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:57:53,868 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,868 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,868 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,869 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,869 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property resultCode
+2020-10-21 11:57:53,869 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:57:53,870 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'resultCode' renamed to 'resultCode'
+2020-10-21 11:57:53,870 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property resultCode to model
+2020-10-21 11:57:53,870 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:57:53,871 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:57:53,871 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:57:53,872 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getResultCode
+2020-10-21 11:57:53,874 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property all
+2020-10-21 11:57:53,876 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:57:53,878 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'all' renamed to 'all'
+2020-10-21 11:57:53,879 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property all to model
+2020-10-21 11:57:53,880 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:57:53,881 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:57:53,882 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:57:53,882 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getAll
+2020-10-21 11:57:53,898 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 4 properties. Properties found all, message, resultCode, success
+2020-10-21 11:57:53,900 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 71] Generated parameter model id: Result, name: Result, schema: {} models
+2020-10-21 11:57:53,901 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key Result
+2020-10-21 11:57:53,904 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 177] Adding type Lcom/lkl/pojo/ResultCode; for parameter resultCode
+2020-10-21 11:57:53,904 DEBUG [main] s.d.s.DefaultModelDependencyProvider [DefaultModelDependencyProvider.java : 206] Recursively resolving dependencies for type Lcom/lkl/pojo/ResultCode;
+2020-10-21 11:57:53,906 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property code
+2020-10-21 11:57:53,908 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:57:53,910 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'code' renamed to 'code'
+2020-10-21 11:57:53,911 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property code to model
+2020-10-21 11:57:53,912 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:57:53,912 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:57:53,913 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:57:53,913 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getCode
+2020-10-21 11:57:53,914 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 127] Reading property message
+2020-10-21 11:57:53,914 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,914 DEBUG [main] s.d.s.p.ObjectMapperBeanPropertyNamingStrategy [ObjectMapperBeanPropertyNamingStrategy.java : 57] Name 'message' renamed to 'message'
+2020-10-21 11:57:53,915 DEBUG [main] s.d.s.p.OptimizedModelPropertiesProvider [OptimizedModelPropertiesProvider.java : 315] Adding property message to model
+2020-10-21 11:57:53,915 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,915 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,916 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,916 DEBUG [main] s.d.s.p.bean.BeanModelProperty [BeanModelProperty.java : 70] Evaluating unwrapped getter for member getMessage
+2020-10-21 11:57:53,918 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 101] Inferred 2 properties. Properties found code, message
+2020-10-21 11:57:53,920 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 89] Adding a new model with key ResultCode
+2020-10-21 11:57:53,938 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:57:53,957 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:57:53,962 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:57:53,968 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:57:53,973 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:57:53,976 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:57:53,981 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:57:53,984 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:57:53,991 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:57:54,002 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@527ad4b
+2020-10-21 11:57:54,003 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@527ad4b, with type: 
+2020-10-21 11:57:54,014 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7b2c466d
+2020-10-21 11:57:54,014 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7b2c466d, with type: 
+2020-10-21 11:57:54,016 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@31ba1880
+2020-10-21 11:57:54,017 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@31ba1880, with type: 
+2020-10-21 11:57:54,018 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4ff0b595
+2020-10-21 11:57:54,019 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4ff0b595, with type: 
+2020-10-21 11:57:54,020 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@478bd969
+2020-10-21 11:57:54,020 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@478bd969, with type: 
+2020-10-21 11:57:54,022 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@27f05e1e
+2020-10-21 11:57:54,022 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@27f05e1e, with type: 
+2020-10-21 11:57:54,023 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@596b2cce
+2020-10-21 11:57:54,024 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@596b2cce, with type: 
+2020-10-21 11:57:54,025 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a83f695
+2020-10-21 11:57:54,025 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4a83f695, with type: 
+2020-10-21 11:57:54,029 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:57:54,030 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:57:54,031 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:57:54,032 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:57:54,037 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.User
+2020-10-21 11:57:54,038 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: roles
+2020-10-21 11:57:54,041 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Role>
+2020-10-21 11:57:54,042 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: roles
+2020-10-21 11:57:54,067 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Role
+2020-10-21 11:57:54,069 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 118] Attempting to expand expandable property: permissions
+2020-10-21 11:57:54,091 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: java.util.Set<com.lkl.entity.Permission>
+2020-10-21 11:57:54,094 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 130] Attempting to expand collection/array field: permissions
+2020-10-21 11:57:54,097 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 104] Expanding parameter type: com.lkl.entity.Permission
+2020-10-21 11:57:54,102 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@453cea2f
+2020-10-21 11:57:54,102 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@453cea2f, with type: 
+2020-10-21 11:57:54,104 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@28f958ae
+2020-10-21 11:57:54,105 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@28f958ae, with type: 
+2020-10-21 11:57:54,106 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7f78580
+2020-10-21 11:57:54,106 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@7f78580, with type: 
+2020-10-21 11:57:54,107 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@766b3948
+2020-10-21 11:57:54,115 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@766b3948, with type: 
+2020-10-21 11:57:54,115 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@5c38ee47
+2020-10-21 11:57:54,116 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@5c38ee47, with type: 
+2020-10-21 11:57:54,117 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@137f3ccc
+2020-10-21 11:57:54,117 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@137f3ccc, with type: 
+2020-10-21 11:57:54,118 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@37ebbd0
+2020-10-21 11:57:54,118 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@37ebbd0, with type: 
+2020-10-21 11:57:54,118 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 229] Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6a4e7a7d
+2020-10-21 11:57:54,119 DEBUG [main] s.d.s.w.r.p.ModelAttributeParameterExpander [ModelAttributeParameterExpander.java : 232] Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6a4e7a7d, with type: 
+2020-10-21 11:57:54,120 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: Result
+2020-10-21 11:57:54,121 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method loginUser
+2020-10-21 11:57:54,121 DEBUG [main] s.d.s.r.o.SwaggerOperationResponseClassReader [SwaggerOperationResponseClassReader.java : 74] Setting response class to:Result
+2020-10-21 11:57:54,123 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method loginUser
+2020-10-21 11:57:54,130 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 76] Adding return parameter of type V
+2020-10-21 11:57:54,131 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 83] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:57:54,131 DEBUG [main] s.d.s.w.r.o.OperationModelsProvider [OperationModelsProvider.java : 94] Finished reading parameters models for handlerMethod |logout|
+2020-10-21 11:57:54,131 DEBUG [main] s.d.s.r.o.SwaggerOperationModelsProvider [SwaggerOperationModelsProvider.java : 84] Reading parameters models for handlerMethod |logout|
+2020-10-21 11:57:54,132 DEBUG [main] s.d.schema.DefaultModelProvider [DefaultModelProvider.java : 86] Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2020-10-21 11:57:54,132 DEBUG [main] s.d.s.web.scanners.ApiModelReader [ApiModelReader.java : 76] Did not find any parameter models for void
+2020-10-21 11:57:54,140 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:57:54,143 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:57:54,144 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:57:54,156 DEBUG [main] s.d.s.w.r.o.OperationResponseClassReader [OperationResponseClassReader.java : 59] Setting spring response class to: null
+2020-10-21 11:57:54,156 DEBUG [main] s.d.s.r.o.VendorExtensionsReader [VendorExtensionsReader.java : 59] Extension count 1 for method logout
+2020-10-21 11:57:54,157 DEBUG [main] s.d.s.r.o.OperationAuthReader [OperationAuthReader.java : 103] Authorization count 0 for method logout
+2020-10-21 11:57:54,220 INFO [main] com.lkl.LklsystemApplication [StartupInfoLogger.java : 61] Started LklsystemApplication in 16.075 seconds (JVM running for 21.947)
+2020-10-21 11:57:56,933 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Processing socket [org.apache.tomcat.util.net.NioChannel@47f34af5:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15696]] with status [OPEN_READ]
+2020-10-21 11:57:56,934 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@47f34af5:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15696]]
+2020-10-21 11:57:56,936 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Popped processor [null] from cache
+2020-10-21 11:57:57,085 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Register [org.apache.coyote.http11.Http11Processor@5e628aa6] as [Tomcat:type=RequestProcessor,worker="http-nio-8081",name=HttpRequest1]
+2020-10-21 11:57:57,086 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Created new processor [org.apache.coyote.http11.Http11Processor@5e628aa6]
+2020-10-21 11:57:57,091 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11InputBuffer [DirectJDKLog.java : 173] Received [GET /META-INF.resources/login.html HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: JSESSIONID=BA3618D4D3A137600A3C98A13D5083B9
+
+]
+2020-10-21 11:57:58,393 DEBUG [http-nio-8081-exec-1] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /META-INF.resources/login.html
+2020-10-21 11:57:58,529 DEBUG [http-nio-8081-exec-1] s.d.s.w.PropertySourcedRequestMappingHandlerMapping [PropertySourcedRequestMappingHandlerMapping.java : 108] looking up handler for path: /error
+2020-10-21 11:57:58,698 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11Processor [DirectJDKLog.java : 173] Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@21b18c0b:org.apache.tomcat.util.net.NioChannel@47f34af5:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8081 remote=/0:0:0:0:0:0:0:1:15696]], Status in: [OPEN_READ], State out: [OPEN]
+2020-10-21 11:57:58,698 DEBUG [http-nio-8081-exec-1] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Pushed Processor [org.apache.coyote.http11.Http11Processor@5e628aa6]

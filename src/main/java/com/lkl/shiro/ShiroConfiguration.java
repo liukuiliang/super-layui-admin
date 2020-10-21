@@ -24,19 +24,18 @@ public class ShiroConfiguration {
         shiroFilterFactoryBean.setSecurityManager(securityManager);
         Map<String,String> filterMap = new LinkedHashMap();
         /* 放行文件 */
-        filterMap.put("/component/**","anon");
-        filterMap.put("/admin/**","anon");
+        filterMap.put("/images/**","anon");
+        filterMap.put("/css/**","anon");
         filterMap.put("/js/**","anon");
         /* 授权文件 */
 
         /* 认证文件 */
-        filterMap.put("/readme/**","authc");
-        filterMap.put("/view/**","authc");
+        filterMap.put("/page/**","authc");
         filterMap.put("/*","authc");
 
         shiroFilterFactoryBean.setLoginUrl("/login.html");
         shiroFilterFactoryBean.setSuccessUrl("/index.html");
-        shiroFilterFactoryBean.setUnauthorizedUrl("/view/error/403.html");
+//        shiroFilterFactoryBean.setUnauthorizedUrl("/view/error/403.html");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
 
         return shiroFilterFactoryBean;
