@@ -4,7 +4,6 @@ import com.lkl.utils.IdCardUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,13 +20,13 @@ public class ThirdPartyController {
 
     @ApiOperation("身份证信息")
     @RequestMapping(value = "/token/idcard", method = {RequestMethod.POST, RequestMethod.GET})
-    public String getToken(@Param("idcard") String idcard) {
+    public String getToken(String idcard) {
         String cardToken = "";
         try {
             cardToken = IdCardUtil.getCardToken(idcard);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return cardToken;
+        return cardToken + "hello";
     }
 }

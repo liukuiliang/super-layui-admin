@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = "用户app相关接口")
 @RestController
 @RequestMapping("/app")
-public class userAppController {
+public class AppBaseController {
 
 }

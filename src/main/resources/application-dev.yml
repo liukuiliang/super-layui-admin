@@ -4,3 +4,7 @@ spring:
     url: jdbc:mysql://localhost:3306/lkl_system?characterEncoding=utf8&useSSL=true
     username: root
     password: 123456
+  devtools:
+    restart:
+      poll-interval: 3000ms
+      quiet-period: 2999ms
