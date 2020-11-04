@@ -27,6 +27,6 @@ public class ThirdPartyController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return cardToken + "hello";
+        return cardToken;
     }
 }
