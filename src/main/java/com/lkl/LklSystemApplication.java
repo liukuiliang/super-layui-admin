@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LklsystemApplication {
+public class LklSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LklsystemApplication.class, args);
+        SpringApplication.run(LklSystemApplication.class, args);
     }
 
 }

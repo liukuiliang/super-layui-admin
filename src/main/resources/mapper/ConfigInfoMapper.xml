@@ -1,0 +1,52 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lkl.mapper.ConfigInfoMapper">
+    <resultMap id="BaseResultMap" type="com.lkl.entity.ConfigInfo">
+        <result column="id" property="id"/>
+        <result column="db_name" property="dbName"/>
+        <result column="view_name" property="viewName"/>
+        <result column="ip" property="ip"/>
+        <result column="port" property="port"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="cron" property="cron"/>
+        <result column="cron_method" property="cronMethod"/>
+        <result column="cron_clazz" property="cronClazz"/>
+        <result column="sync_last_time" property="syncLastTime"/>
+        <result column="app_id" property="appId"/>
+        <result column="app_name" property="appName"/>
+        <result column="department_id" property="departmentId"/>
+
+        <result column="driver_class_name" property="driverClassName"/>
+        <result column="jdbc_url" property="jdbcUrl"/>
+        <result column="status" property="status"/>
+        <result column="department_name" property="departmentName"/>
+    </resultMap>
+
+    <sql id="all">
+     department_name, jdbc_url,  driver_class_name, id,db_name,view_name,ip,port,username,password,cron,cron_method,cron_clazz,sync_last_time,app_id,app_name,department_id,status
+   </sql>
+
+
+    <select id="findByNamedParamList" resultMap="BaseResultMap">
+        select <include refid="all" />  from  config_info
+        <trim prefix="where" prefixOverrides="and |or ">
+            <if test="id  != null ">and id = #{id}</if>
+            <if test="dbName  != null ">and db_name = #{dbName}</if>
+            <if test="viewName  != null ">and view_name = #{viewName}</if>
+            <if test="ip  != null ">and ip = #{ip}</if>
+            <if test="port  != null ">and port = #{port}</if>
+            <if test="username  != null ">and username = #{username}</if>
+            <if test="password  != null ">and password = #{password}</if>
+            <if test="cron  != null ">and cron = #{cron}</if>
+
+            <if test="cronClazz  != null ">and cron_clazz = #{cronClazz}</if>
+            <if test="syncLastTime  != null ">and sync_last_time = #{syncLastTime}</if>
+            <if test="appId  != null ">and app_id = #{appId}</if>
+            <if test="departmentId  != null ">and department_id = #{departmentId}</if>
+            <if test="status  != null ">and status = #{status}</if>
+        </trim>
+        order  by  id  desc
+    </select>
+
+</mapper>
